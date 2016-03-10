@@ -1,4 +1,4 @@
 baseurl = "http://test.odvinc.ru/"
 languageCode = "ru-ru"
 title = "odvinc Blogs"
-canonifyurls = true
+theme = "hyde"

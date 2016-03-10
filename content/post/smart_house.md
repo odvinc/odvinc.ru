@@ -1,17 +1,12 @@
 ---
-title: Умный дом на базе Arduino (Leonardo) и GSM модема
-author: odvinc
-layout: post
-url: /smart_house/
-date: 2014-04-04
-categories:
-  - arduino
-  - development
-tags:
-  - arduino
-  - development
-  - leonardo
-
+title: "Умный дом на базе Arduino (Leonardo) и GSM модема"
+author: "odvinc"
+layout: "post"
+url: "/smart_house/"
+date: "2014-04-04"
+categories: ["arduino", "development"]
+menu: ["development"]
+tags: ["arduino", "development", "leonardo"]
 ---
 Эта статья о том как можно [&#171;Умный дом&#187;](http://ru.wikipedia.org/wiki/%D0%A3%D0%BC%D0%BD%D1%8B%D0%B9_%D0%B4%D0%BE%D0%BC) своими руками с системой sms информирования владельца в случае нарушения периметра или срабатывания различных сенсоров.
 
