@@ -52,29 +52,17 @@ paginate = 10
   # by entering your username or ID.
 
   # SNS microblogging
-  twitter = "*"
-  facebook = "*"
-  googleplus = "*"
-  weibo = "*"
+  twitter = "odvinc"
+  facebook = "odvinc"
 
   # SNS photo/video sharing
-  instagram = "*"
-  flickr = "*"
-  pinterest = "*"
-  youtube = "*"
-  vimeo = "*"
-  vine = "*"
-  slideshare = "*"
+  instagram = "odvinc"
+  youtube = "odvinc"
 
   # SNS career oriented
-  linkedin = "*"
-  xing = "*"
-
-  # SNS news
-  reddit = "*"
-  hackernews = "*"
+  linkedin = "dmitry-okhrimenko-8150a863"
 
   # Techie
-  github = "yoshiharuyamashita"
-  bitbucket = "*"
-  stackoverflow = "*"
+  github = "odvinc"
+  bitbucket = "odvinc"
+
