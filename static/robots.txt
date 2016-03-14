@@ -1,8 +1,8 @@
 User-agent: *
-Disallow: /contact
+Disallow: /tmp
 
 User-agent: Yandex
-Disallow: /contact
+Disallow: /tmp
 Host: odvinc.ru
 
 Sitemap: http://odvinc.ru/sitemap.xml
