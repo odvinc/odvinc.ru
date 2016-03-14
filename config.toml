@@ -1,6 +1,6 @@
 theme = "blackburn"
 baseurl = "http://test.odvinc.ru/"
-title = "odvinc Blogs"
+title = "odvinc Blog"
 author = "Dmitry Okhrimenko"
 # Shown in the side menu
 copyright = "&copy; 2016. All rights reserved."
@@ -14,9 +14,9 @@ paginate = 10
 [params]
   # Shown in the home page
   subtitle = "Dmitry Okhrimenko"
-  brand = "odvinc | Blogs"
+  brand = "odvinc | Blog"
   googleAnalytics = "Your Google Analytics tracking ID"
-  disqus = "Your Disqus shortname"
+  disqus = "odvinc"
   # CSS name for highlight.js
   highlightjs = "androidstudio"
   dateFormat = "02 Jan 2006, 15:04"
