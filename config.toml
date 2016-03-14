@@ -1,5 +1,5 @@
 theme = "blackburn"
-baseurl = "http://test.odvinc.ru/"
+baseurl = "http://odvinc.ru/"
 title = "odvinc Blog"
 author = "Dmitry Okhrimenko"
 # Shown in the side menu
