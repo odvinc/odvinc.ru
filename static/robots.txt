@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /contact
+
+User-agent: Yandex
+Disallow: /contact
+Host: odvinc.ru
+
+Sitemap: http://odvinc.ru/sitemap.xml
