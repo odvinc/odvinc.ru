@@ -152,6 +152,24 @@ paginate = 10
   url = "/about/"
 ```
 
+## Shortcodes
+
+### Positional
+
+```
+{{% fluid_img "/path/to/img" %}}
+```
+
+### Named
+
+```
+{{% fluid_img class="pure-u-1-2" src="/path/to/img" alt="img description" %}}
+{{% fluid_img class="pure-u-1-3" src="/path/to/img" caption="img description" %}}
+```
+
+* `class`, `alt` and `caption` are optional.
+* See [Pure CSS Grids](http://purecss.io/grids/) for possible `class` values.
+
 ## License
 
 * [MIT](//opensource.org/licenses/MIT)
