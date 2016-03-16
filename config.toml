@@ -15,7 +15,8 @@ paginate = 10
   # Shown in the home page
   subtitle = "Dmitry Okhrimenko"
   brand = "odvinc | Blog"
-  googleAnalytics = "Your Google Analytics tracking ID"
+  googleAnalytics = "UA-49874774-1"
+  yandexMetrika = "24603797"
   disqus = "odvinc"
   # CSS name for highlight.js
   highlightjs = "androidstudio"
