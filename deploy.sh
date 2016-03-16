@@ -8,6 +8,9 @@ rm -rf public/*
 # Build the project.
 hugo # if using a theme, replace by `hugo -t <yourtheme>`
 
+# Use the standard GitHub 404 page
+rm public/404.html
+
 # Go To Public folder
 cd public
 
@@ -23,9 +26,6 @@ git commit -m "$msg"
 
 # Push to build repos.
 git push origin master
-
-# Use the standard GitHub 404 page
-rm 404.html
 
 # Come Back
 cd ..
