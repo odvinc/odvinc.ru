@@ -24,6 +24,9 @@ git commit -m "$msg"
 # Push to build repos.
 git push origin master
 
+# Use the standard GitHub 404 page
+rm public/404.html
+
 # Come Back
 cd ..
 
