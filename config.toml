@@ -16,7 +16,7 @@ paginate = 10
   subtitle = "Dmitry Okhrimenko"
   brand = "odvinc | Blog"
   googleAnalytics = "UA-49874774-1"
-  yandexMetrika = 24603797
+  yandexMetrika = "24603797"
   disqus = "odvinc"
   # CSS name for highlight.js
   highlightjs = "androidstudio"

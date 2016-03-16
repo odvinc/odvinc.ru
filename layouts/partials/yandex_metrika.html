@@ -4,8 +4,8 @@
     (function (d, w, c) {
         (w[c] = w[c] || []).push(function() {
             try {
-                w.yaCounter = new Ya.Metrika({
-                    id:{{ . }},
+                w.yaCounter{{ . | safeJS }} = new Ya.Metrika({
+                    id:{{ . | safeJS }},
                     clickmap:true,
                     trackLinks:true,
                     accurateTrackBounce:true,
