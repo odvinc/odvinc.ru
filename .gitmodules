@@ -4,4 +4,4 @@
 	branch = master
 [submodule "themes/blackburn"]
 	path = themes/blackburn
-	url = https://github.com/yoshiharuyamashita/blackburn
+	url = git@github.com:yoshiharuyamashita/blackburn.git
