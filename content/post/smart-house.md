@@ -1,12 +1,11 @@
 ---
 title: "Умный дом своими руками"
 author: "odvinc"
-#layout: "post"
-#url: "/smart_house/"
 date: "2014-04-04"
-categories: ["arduino", "development"]
+topics: ["arduino", "development"]
 tags: ["arduino", "development", "leonardo"]
 description: "Умный дом на базе Arduino (Leonardo) и GSM модема"
+aliases: ["/smart_house/"]
 ---
 
 Эта статья о том как можно создать [&#171;Умный дом&#187;](http://ru.wikipedia.org/wiki/%D0%A3%D0%BC%D0%BD%D1%8B%D0%B9_%D0%B4%D0%BE%D0%BC) своими руками с системой sms информирования владельца в случае нарушения периметра или срабатывания различных сенсоров.
@@ -16,7 +15,7 @@ description: "Умный дом на базе Arduino (Leonardo) и GSM моде
 Ядром нашей системы будет выступать плата ввода-вывода [Arduino](http://arduino.cc/en/Main/Products "Arduino Products") (в нашем случае [Arduino Leonardo](http://arduino.cc/en/Main/ArduinoBoardLeonardo)), которая представляет из себя контроллер позволяющий достаточно легко обрабатывать цифровые и аналоговые сигналы и программировать логику в среде разработки на языке [Processing](http://ru.wikipedia.org/wiki/Processing)/Wiring (очень простой и понятный си подобный язык ).
 
 <center>
-[![Arduino Leonardo](/post/img/ArduinoLeonardoFront_2_400px.jpg "Arduino Leonardo")](http://arduino.cc/en/Main/ArduinoBoardLeonardo)  
+[![Arduino Leonardo](/img/post/ArduinoLeonardoFront_2_400px.jpg "Arduino Leonardo")](http://arduino.cc/en/Main/ArduinoBoardLeonardo)  
 <small>Arduino Leonardo</small>
 </center>
 
@@ -27,7 +26,7 @@ description: "Умный дом на базе Arduino (Leonardo) и GSM моде
 Для управления системой и смс информированием можно использовать практически любой GSM модем имеющий возможность обработки AT команд через последовательный порт. В качестве эталонного варианта предлагаю использовать [Arduino GSM Shield](http://arduino.cc/en/Main/ArduinoGSMShield). Мы же использовали имеющийся в наличии старенький Siemens MC35i Terminal.
 
 <center>
-![Siemens MC35i Terminal](/post/img/Siemens-MC35i-Terminal.jpg "Siemens MC35i Terminal")  
+![Siemens MC35i Terminal](/img/post/Siemens-MC35i-Terminal.jpg "Siemens MC35i Terminal")  
 <small>Siemens MC35i Terminal</small>
 </center>
 
@@ -37,7 +36,7 @@ description: "Умный дом на базе Arduino (Leonardo) и GSM моде
 
 Ссылка на исходный код доступна на <a title="Smart House" href="https://github.com/odvinc/smart_house" target="_blank">GitHub</a>. Там же можно найти несколько вариаций, в которых кнопка постановки на охрану и сенсоры логически инвертированы с 0 на 1. Одним из вариантов является SoftwareSerial - может пригодиться, тем кто будет использовать Arduino с одним последовательным портом и кто захочет переопределить контакты RX,TX на условно произвольные. Для выбора вариантов нужно нажимать на кнопочку branch, как показано на скриншете:
 
-<center>![Select GitHub Branch](/post/img/select_branch.png "Select GitHub Branch")</center>
+<center>![Select GitHub Branch](/img/post/select_branch.png "Select GitHub Branch")</center>
 
 Основной вариант программы с использованием модема на порту COM1 (в коде Serial1) находится в branch: **master**. Загрузить скетч (так принято называть программы для arduino) целиком, можно нажав кнопку **&#171;Download ZIP&#187;**, в правом нижнем углу.
 
@@ -105,7 +104,7 @@ description: "Умный дом на базе Arduino (Leonardo) и GSM моде
 
 Если на номер системы отправить смс сообщение со словом &#171;**STATUS**&#187;, то в ответ вы получите примерно такое сообщение:
 
-<center>![STATUS Message](/post/img/status_msg.png "STATUS Message")</center>
+<center>![STATUS Message](/img/post/status_msg.png "STATUS Message")</center>
 
 Можно пойти дальше и написать приложение, например для Android, но мы решили не заморачиваться =)
 
