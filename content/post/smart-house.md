@@ -8,29 +8,29 @@ description: "Умный дом на базе Arduino (Leonardo) и GSM моде
 aliases: ["/smart_house/"]
 ---
 
-Эта статья о том как можно создать [&#171;Умный дом&#187;](http://ru.wikipedia.org/wiki/%D0%A3%D0%BC%D0%BD%D1%8B%D0%B9_%D0%B4%D0%BE%D0%BC) своими руками с системой sms информирования владельца в случае нарушения периметра или срабатывания различных сенсоров.
+Эта статья о том как можно создать [&#171;Умный дом&#187;](https://ru.wikipedia.org/wiki/%D0%A3%D0%BC%D0%BD%D1%8B%D0%B9_%D0%B4%D0%BE%D0%BC) своими руками с системой sms информирования владельца в случае нарушения периметра или срабатывания различных сенсоров.
 
 Идея собрать и реализовать данную систему принадлежит моему отцу, за ним же и вся часть связанная с паяльником =) Я же, являюсь автором этой статьи и заказанного отцом кода, так как он пока не очень быстро научился писать программы для ардуинчика.
 
-Ядром нашей системы будет выступать плата ввода-вывода [Arduino](http://arduino.cc/en/Main/Products "Arduino Products") (в нашем случае [Arduino Leonardo](http://arduino.cc/en/Main/ArduinoBoardLeonardo)), которая представляет из себя контроллер позволяющий достаточно легко обрабатывать цифровые и аналоговые сигналы и программировать логику в среде разработки на языке [Processing](http://ru.wikipedia.org/wiki/Processing)/Wiring (очень простой и понятный си подобный язык ).
+Ядром нашей системы будет выступать плата ввода-вывода [Arduino](https://arduino.cc/en/Main/Products "Arduino Products") (в нашем случае [Arduino Leonardo](https://arduino.cc/en/Main/ArduinoBoardLeonardo)), которая представляет из себя контроллер позволяющий достаточно легко обрабатывать цифровые и аналоговые сигналы и программировать логику в среде разработки на языке [Processing](https://ru.wikipedia.org/wiki/Processing)/Wiring (очень простой и понятный си подобный язык ).
 
 <center>
-[![Arduino Leonardo](/img/post/ArduinoLeonardoFront_2_400px.jpg "Arduino Leonardo")](http://arduino.cc/en/Main/ArduinoBoardLeonardo)  
+[![Arduino Leonardo](/img/post/ArduinoLeonardoFront_2_400px.jpg "Arduino Leonardo")](https://arduino.cc/en/Main/ArduinoBoardLeonardo)  
 <small>Arduino Leonardo</small>
 </center>
 
 <!--more-->
 
-Заказать Arduino можно, например на [AliExpress](http://aliexpress.com). Стоимость за версию [Arduino Leonardo](http://arduino.cc/en/Main/ArduinoBoardLeonardo "Leonardo") у хорошего продавца, в среднем составляет 10$.
+Заказать Arduino можно, например на [AliExpress](https://aliexpress.com). Стоимость за версию [Arduino Leonardo](https://arduino.cc/en/Main/ArduinoBoardLeonardo "Leonardo") у хорошего продавца, в среднем составляет 10$.
 
-Для управления системой и смс информированием можно использовать практически любой GSM модем имеющий возможность обработки AT команд через последовательный порт. В качестве эталонного варианта предлагаю использовать [Arduino GSM Shield](http://arduino.cc/en/Main/ArduinoGSMShield). Мы же использовали имеющийся в наличии старенький Siemens MC35i Terminal.
+Для управления системой и смс информированием можно использовать практически любой GSM модем имеющий возможность обработки AT команд через последовательный порт. В качестве эталонного варианта предлагаю использовать [Arduino GSM Shield](https://arduino.cc/en/Main/ArduinoGSMShield). Мы же использовали имеющийся в наличии старенький Siemens MC35i Terminal.
 
 <center>
 ![Siemens MC35i Terminal](/img/post/Siemens-MC35i-Terminal.jpg "Siemens MC35i Terminal")  
 <small>Siemens MC35i Terminal</small>
 </center>
 
-Схему подключения пришлось немного доработать, так как потребовалось согласовать уровни. Для этого была использована микросхема [MAX232](http://ru.wikipedia.org/wiki/MAX232). Микросхему установили навесным монтажом, непосредственно внутри модема. Схема подключения аналогична <a title="Схема подключения MAX232" href="http://www.joyta.ru/7033-mikrosxema-max232-opisanie-sxema-vklyucheniya-datasheet/" target="_blank">этой</a>.
+Схему подключения пришлось немного доработать, так как потребовалось согласовать уровни. Для этого была использована микросхема [MAX232](https://ru.wikipedia.org/wiki/MAX232). Микросхему установили навесным монтажом, непосредственно внутри модема. Схема подключения аналогична <a title="Схема подключения MAX232" href="http://www.joyta.ru/7033-mikrosxema-max232-opisanie-sxema-vklyucheniya-datasheet/" target="_blank">этой</a>.
 
 <center>
 ![Схема подключения MAX232](/img/post/mikrosxema-max232-opisanie-sxema-vklyucheniya-datasheet-4.gif "Схема подключения MAX232")  
@@ -125,4 +125,4 @@ aliases: ["/smart_house/"]
 
 P.S. При монтаже системы столкнулись с проблемой ложных срабатываний из-за достаточно большой длинны периметра. Как оказалось, бороться с этим достаточно просто установив несколько керамических конденсаторов по 5 вольтам Arduino.
 
-Скачать среду разработки [Arduino IDE](http://arduino.cc/en/Main/Software) для вашей ОС можно по ссылке с официального сайта.
+Скачать среду разработки [Arduino IDE](https://arduino.cc/en/Main/Software) для вашей ОС можно по ссылке с официального сайта.
