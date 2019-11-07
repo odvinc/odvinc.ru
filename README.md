@@ -1,10 +1,10 @@
 # odvinc.ru
 
-The website source code for <http://odvinc.ru>.
+The website source code for <https://odvinc.ru>.
 
 
 ## Credits
 
-Created by [Dmitry Okhrimenko](http://odvinc.ru).
+Created by [Dmitry Okhrimenko](https://odvinc.ru).
 
-Thanks to [Hugo](http://hugo.spf13.com) for making this easy for us.
+Thanks to [Hugo](https://gohugo.io/) for making this easy for us.

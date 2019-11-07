@@ -5,4 +5,4 @@ User-agent: Yandex
 Disallow: /tmp
 Host: odvinc.ru
 
-Sitemap: http://odvinc.ru/sitemap.xml
+Sitemap: https://odvinc.ru/sitemap.xml
