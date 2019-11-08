@@ -1,4 +1,4 @@
-theme = "blackburn"
+theme = "hyde-hyde"
 baseurl = "https://odvinc.ru/"
 title = "odvinc Blog"
 author = "Dmitry Okhrimenko"
@@ -67,7 +67,7 @@ paginate = 10
   # SNS microblogging
   twitter = "odvinc"
   facebook = "odvinc"
-  googleplus = "odvinc"
+  #googleplus = "odvinc"
 
   # SNS photo/video sharing
   instagram = "odvinc"
